@@ -1,0 +1,13 @@
+batch 49, loss: 2.0130, label: 2, event_time: 65.0500, risk: -1.0002
+batch 99, loss: 0.5541, label: 0, event_time: 20.3700, risk: -1.1265
+batch 149, loss: 1.8264, label: 2, event_time: 61.8900, risk: -1.1944
+Epoch: 0, train_loss_surv: 1.6761, train_loss: 1.6761, train_c_index: 0.5686
+val c-index: 0.7024
+batch 49, loss: 0.4250, label: 0, event_time: 4.4000, risk: -1.3643
+batch 99, loss: 1.2628, label: 0, event_time: 5.6500, risk: -1.5597
+batch 149, loss: 0.6984, label: 1, event_time: 26.1200, risk: -1.6791
+Epoch: 1, train_loss_surv: 1.3551, train_loss: 1.3551, train_c_index: 0.5659
+val c-index: 0.6548
+batch 49, loss: 1.4761, label: 1, event_time: 29.0100, risk: -1.9393
+batch 99, loss: 1.4121, label: 2, event_time: 77.1400, risk: -2.2232
+batch 149, loss: 1.4016, label: 2, event_time: 55.8100, risk: -2.3822

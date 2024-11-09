@@ -1,0 +1,2 @@
+result: 0.7143, epoch: 0
+result: 0.7143, epoch: 0

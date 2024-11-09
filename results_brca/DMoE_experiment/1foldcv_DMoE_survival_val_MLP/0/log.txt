@@ -1,0 +1,103 @@
+batch 49, loss: 1.8847, label: 2, event_time: 54.1700, risk: -1.6127
+batch 49, loss: 1.8847, label: 2, event_time: 54.1700, risk: -1.6127
+batch 99, loss: 1.4250, label: 3, event_time: 146.3900, risk: -1.9231
+batch 149, loss: 0.1770, label: 0, event_time: 9.9500, risk: -2.0787
+Epoch: 0, train_loss_surv: 1.2503, train_loss: 1.2503, train_c_index: 0.5058
+val c-index: 0.4366
+batch 49, loss: 0.6242, label: 2, event_time: 70.3000, risk: -2.4242
+batch 99, loss: 2.4252, label: 0, event_time: 23.7500, risk: -2.5696
+batch 149, loss: 0.4885, label: 2, event_time: 47.5700, risk: -2.6779
+Epoch: 1, train_loss_surv: 1.2513, train_loss: 1.2513, train_c_index: 0.5423
+val c-index: 0.4789
+batch 49, loss: 0.0824, label: 0, event_time: 7.9500, risk: -2.6415
+batch 99, loss: 0.2156, label: 1, event_time: 34.8900, risk: -2.7894
+batch 149, loss: 1.1539, label: 3, event_time: 93.7600, risk: -2.7882
+Epoch: 2, train_loss_surv: 1.1925, train_loss: 1.1925, train_c_index: 0.5252
+val c-index: 0.4789
+batch 49, loss: 0.3713, label: 2, event_time: 47.2100, risk: -2.7668
+batch 99, loss: 2.0600, label: 2, event_time: 77.5600, risk: -2.5347
+batch 149, loss: 0.2748, label: 1, event_time: 40.0500, risk: -2.6359
+Epoch: 3, train_loss_surv: 1.1460, train_loss: 1.1460, train_c_index: 0.6162
+val c-index: 0.5070
+batch 49, loss: 1.1521, label: 3, event_time: 100.6200, risk: -2.4330
+batch 99, loss: 0.1329, label: 0, event_time: 20.8600, risk: -2.4756
+batch 149, loss: 0.3100, label: 1, event_time: 39.2900, risk: -2.4237
+Epoch: 4, train_loss_surv: 1.0097, train_loss: 1.0097, train_c_index: 0.6263
+val c-index: 0.4930
+batch 49, loss: 2.0518, label: 0, event_time: 13.9900, risk: -2.3577
+batch 99, loss: 0.1407, label: 0, event_time: 19.1900, risk: -2.3011
+batch 149, loss: 1.4082, label: 1, event_time: 30.9800, risk: -2.0890
+Epoch: 5, train_loss_surv: 1.0871, train_loss: 1.0871, train_c_index: 0.6349
+val c-index: 0.4648
+batch 49, loss: 1.3696, label: 3, event_time: 85.5800, risk: -2.3994
+batch 99, loss: 1.1350, label: 1, event_time: 31.7700, risk: -1.8901
+batch 149, loss: 1.9045, label: 0, event_time: 11.4300, risk: -2.0424
+Epoch: 6, train_loss_surv: 1.1243, train_loss: 1.1243, train_c_index: 0.6611
+val c-index: 0.4930
+batch 49, loss: 1.4908, label: 3, event_time: 131.5700, risk: -2.3062
+batch 99, loss: 0.6393, label: 2, event_time: 48.5200, risk: -2.3342
+batch 149, loss: 0.3175, label: 1, event_time: 40.9300, risk: -2.3636
+Epoch: 7, train_loss_surv: 0.9501, train_loss: 0.9501, train_c_index: 0.7617
+val c-index: 0.5493
+batch 49, loss: 1.2562, label: 1, event_time: 29.0100, risk: -2.1026
+batch 99, loss: 0.5550, label: 1, event_time: 31.7700, risk: -1.5043
+batch 149, loss: 1.7359, label: 0, event_time: 20.1700, risk: -2.3898
+Epoch: 8, train_loss_surv: 0.8939, train_loss: 0.8939, train_c_index: 0.6418
+val c-index: 0.6338
+batch 49, loss: 0.1296, label: 0, event_time: 8.5100, risk: -2.9342
+batch 99, loss: 0.6039, label: 3, event_time: 97.7700, risk: -2.9098
+batch 149, loss: 1.1638, label: 3, event_time: 93.7600, risk: -2.9574
+Epoch: 9, train_loss_surv: 0.7666, train_loss: 0.7666, train_c_index: 0.7664
+val c-index: 0.7042
+batch 49, loss: 0.7333, label: 3, event_time: 87.1900, risk: -2.9122
+batch 99, loss: 0.6798, label: 3, event_time: 111.9900, risk: -2.7850
+batch 149, loss: 0.2040, label: 2, event_time: 70.8300, risk: -3.0587
+Epoch: 10, train_loss_surv: 0.6667, train_loss: 0.6667, train_c_index: 0.7698
+val c-index: 0.6761
+batch 49, loss: 0.1363, label: 1, event_time: 29.9600, risk: -1.0026
+batch 99, loss: 2.2479, label: 0, event_time: 18.3300, risk: -2.2313
+batch 149, loss: 0.0366, label: 0, event_time: 12.9100, risk: -2.0853
+Epoch: 11, train_loss_surv: 0.6098, train_loss: 0.6098, train_c_index: 0.7407
+val c-index: 0.7746
+batch 49, loss: 0.0886, label: 1, event_time: 29.0100, risk: -0.9802
+batch 99, loss: 0.5202, label: 1, event_time: 27.1000, risk: -1.3304
+batch 149, loss: 0.6230, label: 2, event_time: 54.1700, risk: -1.8146
+Epoch: 12, train_loss_surv: 0.4328, train_loss: 0.4328, train_c_index: 0.8380
+val c-index: 0.9437
+batch 49, loss: 0.1350, label: 2, event_time: 55.8100, risk: -1.9290
+batch 99, loss: 0.1389, label: 2, event_time: 55.8100, risk: -1.8827
+batch 149, loss: 0.5289, label: 0, event_time: 5.6500, risk: -1.4693
+Epoch: 13, train_loss_surv: 0.4332, train_loss: 0.4332, train_c_index: 0.8586
+val c-index: 0.9014
+batch 49, loss: 1.0925, label: 0, event_time: 11.4300, risk: -1.3244
+batch 99, loss: 0.0213, label: 0, event_time: 14.2900, risk: -2.9921
+batch 149, loss: 0.0455, label: 2, event_time: 48.5200, risk: -3.5129
+Epoch: 14, train_loss_surv: 0.3291, train_loss: 0.3291, train_c_index: 0.8663
+val c-index: 0.8310
+batch 49, loss: 0.0282, label: 1, event_time: 34.2300, risk: -3.1762
+batch 99, loss: 0.2726, label: 3, event_time: 100.6200, risk: -3.0002
+batch 149, loss: 0.0291, label: 0, event_time: 4.4000, risk: -3.6109
+Epoch: 15, train_loss_surv: 0.2199, train_loss: 0.2199, train_c_index: 0.8708
+val c-index: 0.6620
+batch 49, loss: 0.0542, label: 2, event_time: 55.5800, risk: -3.4930
+batch 99, loss: 0.2264, label: 3, event_time: 78.9400, risk: -3.7764
+batch 149, loss: 0.0027, label: 2, event_time: 55.8100, risk: -1.9960
+Epoch: 16, train_loss_surv: 0.1297, train_loss: 0.1297, train_c_index: 0.9191
+val c-index: 0.6620
+batch 49, loss: 0.0003, label: 0, event_time: 9.9900, risk: -2.4300
+batch 99, loss: 0.0235, label: 2, event_time: 61.4700, risk: -3.2020
+batch 149, loss: 0.0864, label: 3, event_time: 140.1800, risk: -3.0638
+Epoch: 17, train_loss_surv: 0.1122, train_loss: 0.1122, train_c_index: 0.9112
+val c-index: 0.6761
+batch 49, loss: 0.0000, label: 0, event_time: 23.9200, risk: -2.0830
+batch 99, loss: 0.0006, label: 1, event_time: 29.0100, risk: -0.9995
+batch 149, loss: 0.3400, label: 2, event_time: 61.8900, risk: -2.5000
+Epoch: 18, train_loss_surv: 0.0426, train_loss: 0.0426, train_c_index: 0.9474
+val c-index: 0.6620
+batch 49, loss: 0.0001, label: 0, event_time: 23.7500, risk: -0.0002
+batch 99, loss: 0.0050, label: 3, event_time: 107.1600, risk: -2.9988
+batch 149, loss: 0.0088, label: 3, event_time: 93.7600, risk: -2.9909
+Epoch: 19, train_loss_surv: 0.0374, train_loss: 0.0374, train_c_index: 0.9425
+val c-index: 0.5493
+result: 0.9437, epoch: 12
+result: 0.9437, epoch: 12

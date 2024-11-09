@@ -1,0 +1,32 @@
+val c-index: 0.8423
+val c-index: 0.8423
+val c-index: 0.8423
+val c-index: 0.8423
+val c-index: 0.8423
+val c-index: 0.8423
+val c-index: 0.8423
+val c-index: 0.8423
+val c-index: 0.8423
+val c-index: 0.8423
+val c-index: 0.8423
+val c-index: 0.8423
+val c-index: 0.8423
+val c-index: 0.8423
+val c-index: 0.8423
+val c-index: 0.8423
+result: 0.0000, epoch: 0
+result: 0.0000, epoch: 0
+val c-index: 0.8423
+val c-index: 0.8423
+val c-index: 0.8423
+val c-index: 0.8423
+val c-index: 0.8423
+result: 0.0000, epoch: 0
+result: 0.0000, epoch: 0
+val c-index: 0.8331
+val c-index: 0.8331
+val c-index: 0.8331
+val c-index: 0.8331
+val c-index: 0.8331
+result: 0.0000, epoch: 0
+result: 0.0000, epoch: 0

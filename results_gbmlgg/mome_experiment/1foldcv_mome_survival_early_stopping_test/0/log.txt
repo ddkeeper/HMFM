@@ -1,0 +1,21 @@
+val c-index: 0.8748
+val c-index: 0.8748
+val c-index: 0.8742
+val c-index: 0.8748
+val c-index: 0.8742
+result: 0.0000, epoch: 0
+result: 0.0000, epoch: 0
+val c-index: 0.8748
+val c-index: 0.8748
+val c-index: 0.8742
+val c-index: 0.8748
+val c-index: 0.8742
+result: 0.0000, epoch: 0
+result: 0.0000, epoch: 0
+val c-index: 0.8748
+val c-index: 0.8748
+val c-index: 0.8742
+val c-index: 0.8748
+val c-index: 0.8742
+result: 0.8742, epoch: 0
+result: 0.8742, epoch: 0
