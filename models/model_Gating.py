@@ -186,7 +186,7 @@ class SignGrad(torch.autograd.Function):
         return grad_output
 
 class MM_CosineGate(nn.Module):
-    def __init__(self, branch_num, dim=256, proj_dim=128, norm_layer=RMSNorm, init_gates=0.5, max_experts=2, init_t=0.07):
+    def __init__(self, branch_num, dim=256, proj_dim=256, norm_layer=RMSNorm, init_gates=0.5, max_experts=2, init_t=0.07):
         super().__init__()
         self.bnum = branch_num
         self.max_experts = max_experts
@@ -223,13 +223,26 @@ class MM_CosineGate(nn.Module):
         )
         
     def forward(self, x1, x2):
+        '''
         # MLP处理并归一化
         x1_processed = F.normalize(self.fc1(x1), dim=-1)
         x2_processed = F.normalize(self.fc2(x2), dim=-1)
         
         # 特征融合
         fused_feat = F.normalize((x1_processed.mean(dim=1) + x2_processed.mean(dim=1)) / 2, dim=-1)
+        '''
+        # MLP处理并归一化
+        x1_processed = self.fc1(x1)  # 移除这里的归一化
+        x2_processed = self.fc2(x2)  # 移除这里的归一化
         
+        # 先计算每个模态的平均值
+        x1_mean = x1_processed.mean(dim=1)  # [batch_size, proj_dim]
+        x2_mean = x2_processed.mean(dim=1)  # [batch_size, proj_dim]
+        
+        # 在特征维度上拼接
+        fused_feat = torch.cat([x1_mean, x2_mean], dim=-1)  # [batch_size, proj_dim*2]
+        # 对拼接后的特征进行归一化
+        fused_feat = F.normalize(fused_feat, dim=-1)
         # 计算与专家的相似度，添加temperature scaling
         sim_matrix_norm = F.normalize(self.sim_matrix, dim=0)
         logit_scale = torch.clamp(self.temperature, max=self.clamp_max).exp()
